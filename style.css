@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #ddd;
+}
+li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+canvas {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+}
