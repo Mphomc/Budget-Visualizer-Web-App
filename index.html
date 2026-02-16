@@ -15,15 +15,18 @@
     <!-- Expense input form -->
     <form id="expense-form">
         <input 
-            type="text" 
-            id="category" 
-            placeholder="Category (e.g., Food)" 
+            type="text"
+            id="category"
+            name="category"
+            placeholder="Category"
+            pattern="[A-Za-z]+"
+            title="Letters only, no numbers or symbols"
             required
         >
         <input 
             type="text" 
             id="amount" 
-            placeholder="Amount in USD (e.g., 12.50)" 
+            placeholder="Amount in USD" 
             required 
             pattern="^\d+(\.\d{1,2})?$" 
             title="Enter a valid US dollar amount, e.g., 12.50"
